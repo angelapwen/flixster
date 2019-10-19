@@ -18,7 +18,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
-<img src="https://i.imgur.com/cbHdyop.gifv" width=250><br>
+<img src="https://i.imgur.com/cbHdyop.gif" width=250><br>
 
 ### Notes
 During the course of this project, I learned how to access an API of movies as well as display several such movies in a scrolling list on iOS. I ran into a significant challenge while using CocoaPods and adding my AlamofireImage dependency to my project. I ended up using Carthage to download Alamofire and AlamofireImage for this project. 
