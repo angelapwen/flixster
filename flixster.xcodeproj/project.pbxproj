@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0888DC23614AED00246103 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0888DB23614AED00246103 /* MovieDetailsViewController.swift */; };
 		DD3B49DF235AA4C7005497F8 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3B49DE235AA4C7005497F8 /* AlamofireImage.framework */; };
 		DD3B49E1235AA534005497F8 /* AlamofireImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD3B49E0235AA534005497F8 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD3B49E3235AA551005497F8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3B49E2235AA551005497F8 /* Alamofire.framework */; };
@@ -53,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD0888DB23614AED00246103 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		DD3B49DE235AA4C7005497F8 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		DD3B49E0235AA534005497F8 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		DD3B49E2235AA551005497F8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				DD81F056235A6C1F00DB4AF8 /* Info.plist */,
 				DD81F078235A6E4900DB4AF8 /* MoviesViewController.swift */,
 				DD81F07A235A822F00DB4AF8 /* MovieCell.swift */,
+				DD0888DB23614AED00246103 /* MovieDetailsViewController.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0888DC23614AED00246103 /* MovieDetailsViewController.swift in Sources */,
 				DD81F04B235A6C1D00DB4AF8 /* AppDelegate.swift in Sources */,
 				DD81F079235A6E4900DB4AF8 /* MoviesViewController.swift in Sources */,
 				DD81F07B235A822F00DB4AF8 /* MovieCell.swift in Sources */,
